@@ -1,6 +1,6 @@
-# My NixOS Configuration
+# KemOS ❄️ NixOS Configs
 
-Welcome to my personal NixOS configuration repository! This repository contains my custom configuration files for NixOS, utilizing the i3 window manager and managed through Nix Flakes and Home Manager.
+Welcome to KemOS, my personal NixOS configuration repository! This repository contains my custom configuration files for NixOS, utilizing the i3 window manager and managed through Nix Flakes and Home Manager.
 
 ## Overview
 
