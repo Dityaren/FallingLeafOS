@@ -8,7 +8,8 @@ Welcome to my personal NixOS configuration repository! This repository contains 
 - **Window Manager:** i3
 - **Configuration Management:** Nix Flakes and Home Manager
 
-![NixOS i3 Setup](https://example.com/path/to/your/image.png)
+![NixOS i3 Setup](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/images/2024-09-23-173621_1920x1080_scrot.png)
+![NixOS Fastfetch](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/images/2024-09-23-175530_1920x1080_scrot.png)
 
 ## Customization
 
