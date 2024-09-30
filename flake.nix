@@ -28,10 +28,10 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.backupFileExtension = "backup";
 
             # TODO replace kin with your own username
             home-manager.users.kin = import ./home/home.nix;
+	    home-manager.backupFileExtension = "hm-backup";
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
           }

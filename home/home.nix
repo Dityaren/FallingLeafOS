@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+  imports = 
+  [
+    ./env  
+  ];
   # TODO please change the username & home directory to your own
   home.username = "kin";
   home.homeDirectory = "/home/kin";
@@ -20,13 +24,46 @@
   #     xxx
   # '';
 
+  programs.kitty.enable = true; # required for the default Hyprland config
+
   # Packages that should be installed to the user profile.
   home.packages = with pkgs; [
-    ranger
-    neovim
     spotify
-    fastfetch
     tmux
+    wofi
+discord
+
+    #utils
+    ranger
+    wlr-randr
+    git
+    rustup
+    gnumake
+    catimg
+    curl
+    appimage-run
+    xflux
+    dunst
+    pavucontrol
+    sqlite
+
+    #misc 
+    cava
+    neovim
+    nano
+    rofi
+    nitch
+    wget
+    grim
+    slurp
+    wl-clipboard
+    pamixer
+    mpc-cli
+    tty-clock
+    eza
+    btop
+    tokyo-night-gtk
+
   ];
 
   xsession.windowManager.i3 = {
