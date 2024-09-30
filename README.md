@@ -1,20 +1,14 @@
-# KemOS ❄️ NixOS Configs
+# FallingLeafOS 🍂 NixOS Configs
 
-Welcome to KemOS, my personal NixOS configuration repository! This repository contains my custom configuration files for NixOS, utilizing the i3 window manager and managed through Nix Flakes and Home Manager.
+Welcome to FallingLeafOS, my personal NixOS configuration repository! This repository contains my custom configuration files for NixOS as my daily drive operating-system.
 
 ## Overview
 
-- **Operating System:** NixOS
-- **Window Manager:** i3
-- **Configuration Management:** Nix Flakes and Home Manager
+![NixOS](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/assets/screenshot.png)
+![NixOS](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/assets/screenshot_2.png)
 
-![NixOS i3 Setup](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/images/2024-09-23-173621_1920x1080_scrot.png)
-![NixOS Fastfetch](https://raw.githubusercontent.com/Dityaren/KemOS/refs/heads/main/images/2024-09-23-175530_1920x1080_scrot.png)
+## Credit
 
-## Customization
-
-Here are some files you might want to modify:
-
-- **flake.nix** : Main NixOS and Home Manager configuration.
-- **home/home.nix** : Home Manager settings for dotfiles and applications.
-- **nixos/** : This is where **configuration.nix** and **hardware-configuration.nix** are located
+- Special Thanks to **Zaney** for his implementation in flakes and home-manager structuring.
+- Big thanks to **Ryan4yin** for his nixos-and-flakes-book, I learn alot about nix and flakes from his book.
+- lot of loves to the **NixOS** community.
